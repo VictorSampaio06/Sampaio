@@ -1,0 +1,225 @@
+:root {
+    --cor-primaria: color: black;
+    --cor-secundaria: color: white;
+    --cor-terciaria: color: red;
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh; 
+    box-sizing: border-box;
+    background-color: 
+    black;
+
+   color: white
+
+}
+.cabecalho {
+    padding: 2% 0 0 15%;
+    
+}
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+
+}
+
+.cabecalho__menu__link {
+font-family: "Montserrat", sans-serif;
+font-size: 24px;
+font-weight: 600;
+ color: red;
+ text-decoration: none;
+
+}
+
+.titulo-destaque { color: red;}
+
+.nome-destaque { color: red;}
+
+.introducao {
+    width: 50%;
+    padding: 2% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+
+}
+
+.introducao__curriculo{
+    width: 50%;
+    padding: 2% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+
+}
+.conteudo__introducao__curriculo{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.conteudo__introducao__titulo__curriculo{
+    font-size: 2.25rem;
+    font-family: "Oswald", sans-serif;
+}
+
+.conteudo__introducao {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    
+}
+
+.conteudo__introducao__titulo{
+    font-size: 5.25rem;
+    font-family: "Oswald", sans-serif;
+}
+
+.conteudo__introducao__subtitulo {
+    font-size: 1,5rem;
+    font-family: "Oswald", sans-serif;
+}
+
+.conteudo__introducao__paragrafo {
+    font-size: 2.12rem;
+    font-family: "Montserrat", serif;
+
+}
+
+
+
+.conteudo__introducao__paragrafo2 {
+    font-size: 2.125rem;
+    font-family: "Montserrat", serif;
+}
+
+
+
+.conteudo__introducao__botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 32px;
+    
+}
+
+.conteudo__introducao__subtitulo {
+    font-size: 2.75rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    
+ 
+}
+
+.introducao__botao {
+
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
+    border: 2px, solid red;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.introducao__botao:hover {
+    background-color: red;
+    padding: 5%;
+}
+
+
+.introducao__img {
+    width: 50%;
+}
+
+.introducao__img__lgbt {
+    display: none;
+}
+
+.rodape {
+    padding: 2%;
+    color: black;
+    background-color: red;
+    text-align: center;
+    font-family: "Montserrat", sansserif;
+    font-weight: 500;
+    font-size: 2.12em;
+    border-radius: 8px;
+}
+
+@media (max-width:1200px) { 
+   
+
+
+    .cabecalho__menu__link {
+    color: aqua;
+   }
+   
+    .nome-destaque {
+    color: aqua;
+   }
+
+    .rodape {
+       background-color: aqua;
+    }
+    
+    .introducao__botao {
+        color: aqua;
+        border: 2px, solid aqua;
+    }
+    
+    .titulo-destaque {
+        color: aqua;
+    }
+    
+    .introducao__img {
+        min-width: 480px; max-width: 800px;
+       display: none;
+        
+    }
+    .introducao__img__pt {
+        min-width: 480px; max-width: 800px;
+    }
+    
+    .cabecalho {
+        padding: 9%;
+    }
+    
+    .cabecalho__menu {
+
+        justify-content: center;
+    }
+    .introducao
+ {
+    flex-direction: column-reverse;
+    padding: 5%;
+}
+
+    .conteudo__introducao{
+        width: auto;
+    }
+}
